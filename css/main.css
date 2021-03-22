@@ -90,7 +90,10 @@ textarea {
 /*------------ Base Header/Footer Styles ------------- */
 
 header, footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /*------------ Base Header Styles ------------- */
@@ -108,7 +111,8 @@ header nav {
 }
 
 header nav ul {
-
+  display: flex;
+  flex-flow: row wrap;
 }
 
 header nav ul li {
@@ -214,7 +218,7 @@ article {
 }
 
 .faq-content {
-  
+
 }
 
 /*------------ Base Footer Styles ------------- */
