@@ -236,19 +236,22 @@ footer {
 }
 
 footer .content-wrapper {
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .contact {
-
+  text-align: center;
 }
 
 .social {
-
+  text-align: center;
 }
 
 .social-icons {
-
+  display: flex;
+  justify-content:space-evenly;
 }
 
 .copyright {
