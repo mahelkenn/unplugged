@@ -181,7 +181,8 @@ aside .content-wrapper {
 }
 
 article {
-
+  display: flex;
+  justify-content: center;
 }
 
 /*------------ Mobile Styles - About Page ------------- */
