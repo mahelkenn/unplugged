@@ -102,6 +102,7 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -112,12 +113,13 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
   display: flex;
-  flex-flow: row wrap;
   justify-content:space-around;
+  flex-flow: row wrap;
 }
 
 header nav ul li {
@@ -140,6 +142,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 aside .content-wrapper {
@@ -185,15 +188,14 @@ aside .content-wrapper {
 }
 
 .reviews {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .reviews .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 article {
@@ -204,13 +206,14 @@ article {
 /*------------ Mobile Styles - About Page ------------- */
 
 .mission {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .mission .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission-content {
@@ -228,11 +231,14 @@ article {
 }
 
 .contact-section .content-wrapper {
-
+  width: 100%;
 }
 
 .contact-content {
-
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  flex-flow: column wrap;
 }
 
 /*------------ Mobile Styles - FAQ Page ------------- */
@@ -241,12 +247,14 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq-content {
