@@ -99,7 +99,9 @@ header, footer {
 /*------------ Base Header Styles ------------- */
 
 header .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-divider {
@@ -107,13 +109,15 @@ header .content-wrapper {
 }
 
 header nav {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 header nav ul li {
@@ -123,7 +127,9 @@ header nav ul li {
 /*------------ Mobile Styles - Homepage ------------- */
 
 .hero-area {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-area .content-wrapper {
@@ -131,7 +137,9 @@ header nav ul li {
 }
 
 aside {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 aside .content-wrapper {
@@ -143,11 +151,15 @@ aside .content-wrapper {
 }
 
 .form {
-
+  display: flex;
+  justify-content: center;
+  flex-flow:row wrap;
 }
 
 .features {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .features .content-wrapper {
@@ -173,11 +185,15 @@ aside .content-wrapper {
 }
 
 .reviews {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reviews .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 article {
@@ -188,7 +204,9 @@ article {
 /*------------ Mobile Styles - About Page ------------- */
 
 .mission {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission .content-wrapper {
@@ -204,7 +222,9 @@ article {
 }
 
 .contact-section {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-section .content-wrapper {
@@ -218,11 +238,15 @@ article {
 /*------------ Mobile Styles - FAQ Page ------------- */
 
 .faq {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-content {
@@ -252,8 +276,14 @@ footer .content-wrapper {
 .social-icons {
   display: flex;
   justify-content:space-evenly;
+  align-items: center;
 }
 
+footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .copyright {
 
 }
