@@ -106,7 +106,7 @@ header .content-wrapper {
 }
 
 .header-divider {
-
+  width: 100%;
 }
 
 header nav {
@@ -114,11 +114,13 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content:space-around;
+  width: 45%;
 }
 
 header nav ul li {
@@ -126,6 +128,10 @@ header nav ul li {
 }
 
 /*------------ Mobile Styles - Homepage ------------- */
+
+.content-wrapper {
+  width: 100%;
+}
 
 .hero-area {
   display: flex;
@@ -174,6 +180,10 @@ aside .content-wrapper {
 
 }
 
+.features article {
+  width: 55%;
+}
+
 .fontawesome-icon {
 
 }
@@ -193,9 +203,10 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
-article {
-
+.reviews h3 {
+  width: 49%;
 }
+
 
 /*------------ Mobile Styles - About Page ------------- */
 
@@ -263,7 +274,8 @@ footer {
 }
 
 footer .content-wrapper {
-  width: 100%;
+  width: 55%;
+  margin: 50px 0;
   display: flex;
   justify-content: center;
 }
