@@ -154,9 +154,7 @@ aside .content-wrapper {
 }
 
 .form {
-  display: flex;
-  justify-content: center;
-  flex-flow:row wrap;
+
 }
 
 .features {
@@ -171,7 +169,7 @@ aside .content-wrapper {
 
 .features-items {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   align-content:space-around;
   justify-content: center;
 
@@ -199,8 +197,7 @@ aside .content-wrapper {
 }
 
 article {
-  display: flex;
-  justify-content: center;
+
 }
 
 /*------------ Mobile Styles - About Page ------------- */
@@ -228,17 +225,18 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section .content-wrapper {
-  width: 100%;
+
 }
 
 .contact-content {
   display: flex;
   justify-content: flex-start;
   align-items:center;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
 
 /*------------ Mobile Styles - FAQ Page ------------- */
