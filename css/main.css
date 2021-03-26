@@ -112,6 +112,8 @@ header .content-wrapper {
 
 .header-divider {
   width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -125,7 +127,7 @@ header nav {
 header nav ul {
   display: flex;
   justify-content:space-around;
-  width: 45%;
+  width: 100%;
 }
 
 header nav ul li {
@@ -135,7 +137,8 @@ header nav ul li {
 /*------------ Mobile Styles - Homepage ------------- */
 
 .content-wrapper {
-  width: 100%;
+  width: 90%;
+  margin: 50px 0;
 }
 
 .hero-area {
@@ -189,7 +192,7 @@ aside .content-wrapper {
 }
 
 .features article {
-  width: 55%;
+  width: 63%;
 }
 
 .fontawesome-icon {
@@ -216,7 +219,7 @@ aside .content-wrapper {
 }
 
 .reviews h3 {
-  width: 49%;
+  width: 55%;
 }
 
 
@@ -292,15 +295,16 @@ footer .content-wrapper {
   justify-content: center;
 }
 
-.contact {
+footer .contact {
+  text-align: center;
+  margin: 50px 0;
+}
+
+footer .social {
   text-align: center;
 }
 
-.social {
-  text-align: center;
-}
-
-.social-icons {
+footer .social-icons {
   display: flex;
   justify-content:space-around;
   align-items: center;
@@ -315,8 +319,8 @@ footer .social p {
 footer p {
   margin: 0;
 }
-.copyright {
-
+footer .copyright {
+  margin: 20px 0;
 }
 
 
