@@ -87,6 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   *{
+    outline: 1px solid red;
+  }
+  
+
 /*------------ Base Header/Footer Styles ------------- */
 
 header, footer {
@@ -139,6 +144,7 @@ header nav ul li {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
+  outline: 1px solid yellow;
 }
 
 .hero-area {
@@ -325,27 +331,6 @@ footer .copyright {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -434,15 +419,50 @@ footer .copyright {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+@media only screen and (min-width: 768px) {
+  /* Tablet screen adjustments */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+  header {
+
+  }
+
+  header .content-wrapper {
+    width: 100%;
+  }
+
+  header nav {
+    width: 20%;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
+  }
+
+  .features .features-item-description {
+    width: 50%;
+  }
+
+  .reviews article div {
+    width: 49%;
+  }
+
+  footer .content-wrapper {
+    width: 65%;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+
+@media only screen and (min-width: 1200px) {
+  /* Full screen adjustments */
+
+
 }
 
 /* ==========================================================================
