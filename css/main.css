@@ -430,6 +430,10 @@ footer .copyright {
     justify-content: space-around;
   }
 
+  .header-divider {
+    display: none;
+  }
+
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
@@ -483,6 +487,7 @@ footer .copyright {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
 
   footer .copyright {
