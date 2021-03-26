@@ -98,11 +98,16 @@ header, footer {
 
 /*------------ Base Header Styles ------------- */
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 .header-divider {
@@ -137,6 +142,7 @@ header nav ul li {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  margin: 0 20px;
 }
 
 .hero-area .content-wrapper {
@@ -148,6 +154,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0 20px;
 }
 
 aside .content-wrapper {
@@ -166,6 +173,7 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  margin: 0 20px;
 }
 
 .features .content-wrapper {
@@ -194,8 +202,12 @@ aside .content-wrapper {
 
 }
 
-.reviews {
+.features p {
+  margin: 0;
+}
 
+.reviews {
+  margin: 0 20px;
 }
 
 .reviews .content-wrapper {
@@ -298,6 +310,10 @@ footer .social p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer p {
+  margin: 0;
 }
 .copyright {
 
