@@ -99,6 +99,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul, ol {
@@ -107,20 +108,17 @@ ul, ol {
 }
 
 a {
-  color: #e2e3ed;
   text-decoration: none;
 }
   
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 3.75em;
-  color: #e2e3ed;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
-  color: #e2e3ed;
 }
 
 h4 {
@@ -130,7 +128,7 @@ h4 {
 }
 
 p {
-  color: #e2e3ed;
+  
 }
 
 img {
