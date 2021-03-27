@@ -109,6 +109,7 @@ ul, ol {
 
 a {
   text-decoration: none;
+  color: #e2e3ed;
 }
   
 h2 {
@@ -162,6 +163,7 @@ header, footer {
 
 header {
   padding: 15px 0;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -202,7 +204,13 @@ header nav ul li {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  margin: 0 20px;
+  background-image: url('../img/jake-melara-30679-unsplash.jpg');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */    
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 }
 
 .hero-area .content-wrapper {
@@ -214,7 +222,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0 20px;
+  background-color: #527158;
 }
 
 aside .content-wrapper {
@@ -233,7 +241,11 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  margin: 0 20px;
+  background-image: url('../img/rawpixel-800820-unsplash1.jpg');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */    
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .features .content-wrapper {
@@ -267,10 +279,11 @@ aside .content-wrapper {
 }
 
 .reviews {
-  margin: 0 20px;
+  background-color: #2a423a;
 }
 
 .reviews .content-wrapper {
+  margin: 0;
   display: flex;
   flex-flow: row wrap;
 }
@@ -342,7 +355,7 @@ aside .content-wrapper {
 /*------------ Base Footer Styles ------------- */
 
 footer {
-
+  background-color: #202322;
 }
 
 footer .content-wrapper {
