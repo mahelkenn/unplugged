@@ -101,19 +101,27 @@ body {
 }
 
 ul, ol {
-
+  list-style-type:none;
 }
 
 a {
-
+  color: #e2e3ed;
+  text-decoration: none;
 }
   
 h2 {
   font-family: 'Poppins', sans-serif;
+  font-size: 3.75em;
 }
 
-h3, h4 {
+h3 {
   font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
 }
 
 p {
