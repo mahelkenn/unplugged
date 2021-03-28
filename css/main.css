@@ -133,7 +133,7 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
@@ -204,11 +204,8 @@ header nav ul li {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url('../img/jake-melara-30679-unsplash.jpg');
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */    
-  background-repeat: no-repeat; /* Do not repeat the image */
+  height: 600px;
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 }
@@ -241,10 +238,7 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url('../img/rawpixel-800820-unsplash1.jpg');
-  background-color: #cccccc; /* Used if the image is unavailable */
-  background-position: center; /* Center the image */    
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
