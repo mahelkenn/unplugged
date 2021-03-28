@@ -280,6 +280,8 @@ aside .content-wrapper {
 
 .reviews {
   background-color: #2a423a;
+  display: flex;
+  justify-content: center;
 }
 
 .reviews .content-wrapper {
