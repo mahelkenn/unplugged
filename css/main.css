@@ -277,7 +277,6 @@ aside .content-wrapper {
 .features-item-description {
   width: 40%;
   text-align: center;
-
 }
 
 .features p {
@@ -363,6 +362,7 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -398,10 +398,15 @@ footer .social {
   text-align: center;
 }
 
-footer .social-icons {
+footer .social .social-icons {
   display: flex;
   justify-content:space-around;
   align-items: center;
+}
+
+footer i {
+  font-size: 2.25em;
+  margin: 10px;
 }
 
 footer .social p {
