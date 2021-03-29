@@ -405,8 +405,11 @@ footer .social .social-icons {
 }
 
 footer i {
-  font-size: 2.25em;
-  margin: 10px;
+  font-size: 1.75em;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #527158;
 }
 
 footer .social p {
