@@ -339,6 +339,7 @@ aside {
 
 footer {
   background-color: #202322;
+  flex-direction: column;
 }
 
 footer .content-wrapper {
@@ -381,8 +382,9 @@ footer p {
   margin: 0;
   line-height: 30px;
 }
+
 footer .copyright {
-  margin: 20px 0;
+  margin: 40px 0;
   text-align: center;
 }
 
@@ -390,7 +392,6 @@ aside .form {
   margin-top: 30px;
 }
  
-
 /*------------ Input Box Styles ------------- */
 input[type=text] {
   box-sizing: border-box;
