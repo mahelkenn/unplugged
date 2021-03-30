@@ -578,29 +578,30 @@ input[type=button] {
 
   .reviews article {
     display: flex;
-    justify-content: space-between;
-  }
-
-  .reviews article div {
-    display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     width: 100%;
   }
 
-  .reviews article div figure {
-    width: 50%;
+  .reviews h2 {
+    width: 70%;
+  }
+
+  .reviews article figure {
+    width: 46%;
+  }
+
+  .reviews article div {
+    width: 52%;
   }
 
   .reviews article div h3 {
-    width: 49%;
-  }
-
-  .reviews article div p {
-    width: 49%;
+    margin: 0;
   }
 
   footer .content-wrapper {
     width: 65%;
+    margin: 50px 0;
   }
 
   .footer-content {
