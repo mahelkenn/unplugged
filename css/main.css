@@ -86,11 +86,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*
+
 * {
   outline: 1px solid red;
 }
-*/
+
 
 
 html {
@@ -155,7 +155,7 @@ header, footer {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
-  /*outline: 1px solid yellow; */
+  outline: 1px solid yellow; 
 }
 
 /*------------ Base Header Styles ------------- */
@@ -508,6 +508,13 @@ input[type=button] {
 
 @media only screen and (min-width: 768px) {
   /* Tablet screen adjustments */
+
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+    width: 80%;
+  }
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -553,6 +560,10 @@ input[type=button] {
     width: 40%;
   }
 
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features .features-item-description {
     width: 50%;
   }
@@ -569,9 +580,22 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
   }
-/*  -----------------------------------------SOMETHING NEEDS FIXED HERE ----------------- */
+
   .reviews article div {
     display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .reviews article div figure {
+    width: 50%;
+  }
+
+  .reviews article div h3 {
+    width: 49%;
+  }
+
+  .reviews article div p {
     width: 49%;
   }
 
