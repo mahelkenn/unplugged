@@ -118,17 +118,20 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: normal;
 }
 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   color: white;
+  font-weight: normal;
 }
 
 img {
@@ -626,6 +629,10 @@ input[type=button] {
     align-items: center;
   }
 
+  .mission h2 {
+    font-size: 2.35em;
+  }
+
   .mission-content p {
     width: 45%;
   }
@@ -635,7 +642,8 @@ input[type=button] {
   }
 
   .contact-section .content-wrapper h2 {
-    width: 80%;
+    width: 85%;
+    font-size: 2.35em;
   }
 
   .contact-content {
