@@ -714,9 +714,15 @@ input[type=button] {
     width: 46%;
   }
 
+  .reviews article {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+
   .reviews h2 {
     width: 80%;
-    margin: 75px 0;
+    margin: 30px 0;
   }
 
   /* ------- About Page -------- */
